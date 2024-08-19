@@ -1,0 +1,22 @@
+POST https://cuddly-giggle-q7p9v5j5jjqh4q9x-3333.app.github.dev/users HTTP/1.1
+Content-Type: application/json
+Authorization: token xxx
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+####
+
+PUT  https://cuddly-giggle-q7p9v5j5jjqh4q9x-3333.app.github.dev/users/2 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "John Doe Edson",
+  "email": "john@example.com"
+}
+
+####
+
+DELETE  https://cuddly-giggle-q7p9v5j5jjqh4q9x-3333.app.github.dev/users/2 HTTP/1.1
+
