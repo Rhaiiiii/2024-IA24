@@ -613,7 +613,7 @@ app.get('/users', async (req, res) => {
 
 ## 13. Aterando app.ts
 
-**1 ->** Na linha 9 onde tem: app.use(express.json());
+Na linha 9 onde tem: `app.use(express.json());`
 
 voce irá colocar embaixo o seguinte codigo:
 
