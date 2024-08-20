@@ -2,12 +2,13 @@
 
 ## 1. Criando um projeto no GitHub
 
-Crie um novo repositório no GitHub:
+### Crie um novo repositório no GitHub:
 
-1. Vá até github.com.
-2. No canto superior direito, clique no ícone de "+" e depois em "New repository".
+`1 ->` Vá até github.com.
 
-3. Dê um nome ao seu repositório (ex: "Trabalho de programação") e clique em "Create repository".
+`2 ->` No canto superior direito, clique no ícone de "+" e depois em "New repository".
+
+`3 ->` Dê um nome ao seu repositório (ex: "Trabalho de programação") e clique em "Create repository".
 
 ## 2. Inicializando o projeto Node.js
 
@@ -118,13 +119,13 @@ app.listen(port, () => {
 
 Para começar, você deverá instalar a extensão **REST Client** no VSCode. Siga os passos abaixo:
 
-**1 ->** Clique no ícone de **Extensões** (que parece um cubo desmontando) na barra lateral esquerda.
+`*1 ->` Clique no ícone de **Extensões** (que parece um cubo desmontando) na barra lateral esquerda.
 
-**2 ->** Na barra de pesquisa na parte superior, digite **REST Client**.
+`2 ->` Na barra de pesquisa na parte superior, digite **REST Client**.
 
-**3 ->** Quando a extensão aparecer nos resultados, clique em **Instalar**.
+`3 ->` Quando a extensão aparecer nos resultados, clique em **Instalar**.
 
-**4 ->** Aguarde a instalação ser concluída antes de prosseguir para o próximo passo.
+`4 ->` Aguarde a instalação ser concluída antes de prosseguir para o próximo passo.
 
 
 Agora, volte para o terminal e digite o seguinte comando para rodar o servidor:
@@ -135,9 +136,9 @@ npm run dev
 
  Se tudo ocorrer bem, você verá a mensagem `Server running on port 3333` no terminal.
 
-**1 ->** Clique no botão **Abrir no navegador**.
+`1 ->` Clique no botão **Abrir no navegador**.
 
-**2 ->** O navegador será aberto e você verá a mensagem **Hello World** na página.
+`2 ->` O navegador será aberto e você verá a mensagem **Hello World** na página.
 
 ## 7. Configurando o banco de dados
 
@@ -174,11 +175,11 @@ export async function connect() {
 
 ## 8. Adicionando o banco de dados ao servidor
 
-**1 ->** No antigo arquivo `app.ts`
+`1 ->` No antigo arquivo `app.ts`
 
-**2 ->** Apague todo o código que está lá.
+`2 ->` Apague todo o código que está lá.
 
-**3 ->** Cole o código abaixo no lugar:
+`3 ->` Cole o código abaixo no lugar:
 
 ```typescript
 import express from 'express';
@@ -222,9 +223,9 @@ app.listen(port, () => {
 
 ### Criar o Arquivo no GitHub
 
-**1 ->** Crie um arquivo chamada **fora da pasta src**.
+`1 ->` Crie um arquivo chamada **fora da pasta src**.
 
-**2 ->** Nomeie o arquivo como `teste.http`.
+`2 ->` Nomeie o arquivo como `teste.http`.
 
 ### Adicionar o Código
 
@@ -242,11 +243,11 @@ Authorization: token xxx
 ```
 ### Configurar a Porta
 
-**1 ->** Ao lado do `terminal` terá a seção **Portas** (ou pode estar dentro dos três pontinhos **...**).
+`1 ->` Ao lado do `terminal` terá a seção **Portas** (ou pode estar dentro dos três pontinhos **...**).
 
-**2 ->** Clique em Portas e encontre a sua porta (por exemplo, 3333). Clique com o botão direito no número da porta.
+`2 ->` Clique em Portas e encontre a sua porta (por exemplo, 3333). Clique com o botão direito no número da porta.
 
-**3 ->** Selecione Visibilidade da porta e altere de Private para Public.
+`3 ->` Selecione Visibilidade da porta e altere de Private para Public.
 
 ### Copiar o Endereço
 
