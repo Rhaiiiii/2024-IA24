@@ -12,7 +12,7 @@
 
 ## 2. Inicializando o projeto Node.js
 
-Ainda no terminal do VSCode, siga os seguintes passos para inicializar o projeto Node.js:
+Ainda no terminal siga os seguintes passos para inicializar o projeto Node.js:
 
 ``Copie e cole uma linha de cada vez para que não dê erro!``
 
@@ -28,7 +28,7 @@ Logo após isso aparecerá novos aquivos.
 
 ## 3. Configuranado o `tsconfig.json`
 
-Abra o arquivo tsconfig.json que foi criado na sua pasta. 
+Abra o arquivo `tsconfig.json` que foi criado na sua pasta. 
 
 Agora, procure por esta linha:
 
