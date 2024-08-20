@@ -71,7 +71,8 @@ Digite "scripts" na barra de pesquisa. Isso deve te levar para a seção `"scrip
 
 Adicione o seguinte código na seção `"scripts"`:
 
-Você verá algo como "scripts": { "test": "echo \"Error: no test specified\" && exit 1" }.
+Você verá algo como `"scripts": { "test": "echo \"Error: no test specified\" && exit 1" }.`
+
 Substitua esse conteúdo pelo seguinte:
 
 ```json
@@ -117,13 +118,13 @@ app.listen(port, () => {
 
 Para começar, você deverá instalar a extensão **REST Client** no VSCode. Siga os passos abaixo:
 
-**1.** Clique no ícone de **Extensões** (que parece um cubo desmontando) na barra lateral esquerda.
+**1 ->** Clique no ícone de **Extensões** (que parece um cubo desmontando) na barra lateral esquerda.
 
-**2.** Na barra de pesquisa na parte superior, digite **REST Client**.
+**2 ->** Na barra de pesquisa na parte superior, digite **REST Client**.
 
-**3.** Quando a extensão aparecer nos resultados, clique em **Instalar**.
+**3 ->** Quando a extensão aparecer nos resultados, clique em **Instalar**.
 
-**4.** Aguarde a instalação ser concluída antes de prosseguir para o próximo passo.
+**4 ->** Aguarde a instalação ser concluída antes de prosseguir para o próximo passo.
 
 
 Agora, volte para o terminal e digite o seguinte comando para rodar o servidor:
@@ -134,9 +135,9 @@ npm run dev
 
  Se tudo ocorrer bem, você verá a mensagem `Server running on port 3333` no terminal.
 
-**1.** Clique no botão **Abrir no navegador**.
+**1 ->** Clique no botão **Abrir no navegador**.
 
-**2.** O navegador será aberto e você verá a mensagem **Hello World** na página.
+**2 ->** O navegador será aberto e você verá a mensagem **Hello World** na página.
 
 ## 7. Configurando o banco de dados
 
@@ -173,11 +174,11 @@ export async function connect() {
 
 ## 8. Adicionando o banco de dados ao servidor
 
-**1.** No antigo arquivo `app.ts`
+**1 ->** No antigo arquivo `app.ts`
 
-**2.** Apague todo o código que está lá.
+**2 ->** Apague todo o código que está lá.
 
-**3.** Cole o código abaixo no lugar:
+**3 ->** Cole o código abaixo no lugar:
 
 ```typescript
 import express from 'express';
@@ -221,9 +222,9 @@ app.listen(port, () => {
 
 ### Criar o Arquivo no GitHub
 
-**1.** Crie um arquivo chamada **fora da pasta src**.
+**1 ->** Crie um arquivo chamada **fora da pasta src**.
 
-**2.** Nomeie o arquivo como `teste.http`.
+**2 ->** Nomeie o arquivo como `teste.http`.
 
 ### Adicionar o Código
 
@@ -241,11 +242,11 @@ Authorization: token xxx
 ```
 ### Configurar a Porta
 
-**1.** Ao lado do `terminal` terá a seção **Portas** (ou pode estar dentro dos três pontinhos **...**).
+**1 ->** Ao lado do `terminal` terá a seção **Portas** (ou pode estar dentro dos três pontinhos **...**).
 
-**2.** Clique em Portas e encontre a sua porta (por exemplo, 3333). Clique com o botão direito no número da porta.
+**2 ->** Clique em Portas e encontre a sua porta (por exemplo, 3333). Clique com o botão direito no número da porta.
 
-**3.** Selecione Visibilidade da porta e altere de Private para Public.
+**3 ->** Selecione Visibilidade da porta e altere de Private para Public.
 
 ### Copiar o Endereço
 
@@ -284,7 +285,7 @@ Se tudo ocorrer bem, você verá a resposta:
 
 Vamos atualizar o arquivo `teste.http`
 
-```http
+```bash
 POST (>>>>>>>>>>SEU LINK /users<<<<<<<<<<) HTTP/1.1
 Content-Type: application/json
 Authorization: token xxx
@@ -485,7 +486,7 @@ E dentro da pasta **index.html**, adicione o seguinte código:
 ```
 E depois, crie outro arquivo só que agora sendo **index.css** e cole o seguinte código:
 
-```html
+```bash
 html, body {
     height: 100%;
     margin: 0;
@@ -611,7 +612,7 @@ app.get('/users', async (req, res) => {
 
 ## 13. Aterando app.ts
 
-**1.** Na linha 9 onde tem: app.use(express.json());
+**1 ->** Na linha 9 onde tem: app.use(express.json());
 
 voce irá colocar embaixo o seguinte codigo:
 
