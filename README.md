@@ -65,7 +65,7 @@ O arquivo vai ficar mais ou menos assim:
 
 ## 4. Configurando o `package.json`
 
-Abra o arquivo package.json:
+Abra o arquivo `package.json`:
 
 Pressione `Ctrl + F` no seu teclado para abrir a barra de pesquisa.
 Digite "scripts" na barra de pesquisa. Isso deve te levar para a seção `"scripts"` dentro do `package.json`.
@@ -81,7 +81,7 @@ Substitua esse conteúdo pelo seguinte:
   "dev": "nodemon src/app.ts"
 }
 ```
-E o seu codigo ficara assim:
+E o seu codigo ficará assim:
 
 ```json
  "scripts": {
