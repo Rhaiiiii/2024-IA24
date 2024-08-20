@@ -83,8 +83,7 @@ E o seu codigo ficara assim:
 
 ```json
  "scripts": {
-    "test": "echo \"Error: no test 
-     specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon src/app.ts"
   },
 ```
