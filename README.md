@@ -114,7 +114,7 @@ app.listen(port, () => {
 
 ## 6. Inicializando o servidor
 
-## Instalação da REST Client
+### Instalação da REST Client
 
 Para começar, você deverá instalar a extensão **REST Client** no VSCode. Siga os passos abaixo:
 
